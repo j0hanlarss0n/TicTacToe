@@ -8,6 +8,7 @@ function WiderThanTall() {
     const handleResize = () => {
       setWidth(window.innerWidth);
       setHeight(window.innerHeight);
+      console.log("Height: " + height + " width: " + width);
     };
     window.addEventListener("resize", handleResize);
     return () => {
