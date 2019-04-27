@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import GameBoard from "./components/gameBoard/GameBoard.js";
+import GameBoard from "./components/GameBoard/GameBoard.js";
+import WiderThanTall from "./WiderThanTall";
 
 function App() {
   return (
-    <div className="test">
+    <div className="App">
       <GameBoard />
-      <button>hej</button>
     </div>
   );
 }

@@ -1,0 +1,6 @@
+button {
+  flex: 0 0 32%; /* don't grow, don't shrink, width */
+  height: 32%;
+  margin-bottom: 5px;
+  background-color: #999;
+}

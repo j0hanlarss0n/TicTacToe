@@ -1,5 +1,5 @@
 import React from "../../../node_modules/react";
-import "./boardSquare.css";
+import "./BoardSquare.css";
 
 function BoardSquare() {
   return <button>Square</button>;
